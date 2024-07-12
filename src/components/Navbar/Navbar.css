@@ -1,0 +1,25 @@
+.navbar_main_container {
+  position: fixed;
+  width: 25%;
+  left: 0;
+  height: calc(100% - 64px);
+  min-height: auto;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar_option {
+  height: 50px;
+  background-color: #41331c;
+  border-top-right-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: large;
+  font-weight: 500;
+  letter-spacing: 3px;
+  cursor: pointer;
+}

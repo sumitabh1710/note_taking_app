@@ -1,0 +1,20 @@
+.popup_main_container {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  min-width: 300px;
+  height: fit-content;
+  border: 2px solid #ffffff26;
+  background-color: #202124;
+  z-index: 20;
+  padding: 15px 10px;
+  display: flex;
+  border-radius: 8px;
+  gap: 1rem;
+}
+
+.bg_color_options {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}

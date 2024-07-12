@@ -1,0 +1,67 @@
+.notes_lists_main_container {
+  height: fit-content;
+  width: 90%;
+  margin-top: 30px;
+  padding: 2%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.others_main_container {
+  display: flex;
+  gap: 1%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.each_note {
+  position: relative;
+  width: 21%;
+  padding: 1%;
+  height: fit-content;
+  border: 2px solid #ffffff26;
+  border-radius: 8px;
+  color: white;
+  transition: all 200ms linear;
+}
+
+.each_note:hover {
+  border: 2px solid #ffffff87;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.delete_image_button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete_button {
+  position: relative;
+  cursor: pointer;
+}
+
+.pinned_button {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+p {
+  width: 100%;
+  word-break: break-all;
+}
+
+h1 {
+  color: white;
+  width: 100%;
+  text-align: left;
+  font-size: large;
+}
